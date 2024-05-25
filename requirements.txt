@@ -1,0 +1,8 @@
+torch
+streamlit
+streamlit-webrtc
+SpeechRecognition
+transformers
+faster-whisper
+PyAudio
+-e trans/IndicTransTokenizer
