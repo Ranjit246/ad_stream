@@ -4,5 +4,5 @@ streamlit-webrtc
 SpeechRecognition
 transformers
 faster-whisper
-PyAudio
+pyaudio
 -e trans/IndicTransTokenizer
