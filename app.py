@@ -24,7 +24,6 @@ def initialize_model_and_tokenizer(ckpt_dir, direction):
     model = AutoModelForSeq2SeqLM.from_pretrained(
         ckpt_dir,
         trust_remote_code=True,
-        low_cpu_mem_usage=True,
     )
     model.eval()
     return tokenizer, model
