@@ -35,7 +35,7 @@ def initialize_model_and_tokenizer(ckpt_dir, direction):
 #     model.eval()
 #     return tokenizer, model
 
-en_indic_ckpt_dir = "ai4bharat/indictrans2-en-indic-1B"  # ai4bharat/indictrans2-en-indic-dist-200M
+en_indic_ckpt_dir = "ai4bharat/indictrans2-en-indic-dist-200M"  # ai4bharat/indictrans2-en-indic-dist-200M
 en_indic_tokenizer, en_indic_model = initialize_model_and_tokenizer(en_indic_ckpt_dir, "en-indic")
 ip = IndicProcessor(inference=True)
 
